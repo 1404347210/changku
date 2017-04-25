@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.a.pinnerdemo1.MainActivity">
+
+     <TextView
+    android:id="@+id/myTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello World, SpinnerDemo2Activity!"
+    android:textColor="#000000" >
+</TextView>
+
+    <EditText
+        android:id="@+id/myEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <Button
+        android:id="@+id/myButton_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="新增" >
+    </Button>
+
+    <Button
+        android:id="@+id/myButton_remove"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="移除" >
+    </Button>
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+</LinearLayout>
